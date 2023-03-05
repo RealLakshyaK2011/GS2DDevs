@@ -1,164 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="aefc2f4c-97e8-4f78-b92f-6aa5d6fde369" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/Initializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/graphics/AbstractGameWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/graphics/GamePanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/graphics/image/RenderAbleImage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/graphics/image/utils/ImageUtils$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/graphics/image/utils/ImageUtils$FlipDirection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/graphics/image/utils/ImageUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/graphics/model/Model.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/graphics/model/ModelPart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/inputs/keyboard/KeyBinding.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/inputs/keyboard/KeyBoardInput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/math/GSMath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/physics/PhysicalEventHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/physics/PhysicsAffectedObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/physics/engine/PhysicsEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/renderer/RenderAble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/renderer/RenderAbleComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/renderer/RenderAbleObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/renderer/RenderingEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/chauhanDevs/gsquad/GS2DDevs/thread/GameLoopThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/methodTest/TestConduct1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/methodTest/TestConduct2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/EventHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/MainGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/client/entity/ClientPlayerEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/client/entity/OpponentPlayerEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/common/entity/BallEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/common/entity/PlayerEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/common/events/GameOverEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/event/Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/event/EventBus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/graphic/FillAbleBar$DecreasingSide.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/graphic/FillAbleBar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/graphic/GameWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/graphic/model/BallModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/graphic/model/PlayerModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/input/keyboard/BACKWARD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/input/keyboard/DASH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/input/keyboard/FORWARD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/input/keyboard/SPRINT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
-    </list>
+    <list default="true" id="dbdd4d8a-1920-4fb4-9069-41027d0dd38f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="GS2DDevs" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="GS2DDevs" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2MaLuDZOVirH6IH28kz6yDST33N" />
+  <component name="ProjectId" id="2MadIjBHhuTspHbradzRo3SKDwi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="MainGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.MainGame" />
-      <module name="GS2DDevs.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.MainGame" />
-      </list>
-    </recent_temporary>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="aefc2f4c-97e8-4f78-b92f-6aa5d6fde369" name="Changes" comment="" />
-      <created>1678000978714</created>
+      <changelist id="dbdd4d8a-1920-4fb4-9069-41027d0dd38f" name="Changes" comment="" />
+      <created>1678009549081</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1678000978714</updated>
+      <updated>1678009549081</updated>
     </task>
     <servers />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
