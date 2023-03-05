@@ -5,6 +5,7 @@ import net.chauhanDevs.gsquad.GS2DDevs.graphics.image.RenderAbleImage;
 import net.chauhanDevs.gsquad.GS2DDevs.renderer.RenderingEngine;
 import net.chauhanDevs.gsquad.GS2DDevs.graphics.image.utils.ImageUtils;
 import test.client.entity.ClientPlayerEntity;
+import test.client.entity.Enviroment;
 import test.client.entity.OpponentPlayerEntity;
 import test.common.entity.BallEntity;
 import test.graphic.FillAbleBar;
@@ -37,6 +38,7 @@ public final class MainGame{
         initControls();
         initEntities();
         initImages();
+        Enviroment.init();
         EventHandler.init();
 
         GamePanel.getGamePanel().requestFocus();
@@ -59,28 +61,15 @@ public final class MainGame{
 
     private void initImages(){
         BufferedImage sbImage;
-        RenderAbleImage goalImage;
-        RenderAbleImage goal2Image;
         try {
             sbImage = ImageUtils.getImageFromResource("sprites/sprint_bar.png");
-            goalImage = new RenderAbleImage(ImageUtils.getImageFromResource("sprites/goal_blue.png").getScaledInstance(500, 131, 0));
-            goal2Image = new RenderAbleImage(ImageUtils.flipImage(ImageUtils.getImageFromResource("sprites/goal_blue.png"), ImageUtils.FlipDirection.VERTICAL).getScaledInstance(500, 131, 0));
         } catch (IOException e) {
             throw new RuntimeException("Can't Load Images");
         }
 
-        //Locating
-        goalImage.setX(500);
-        goalImage.setY(goalImage.getY()+131/2);
-
-        goal2Image.setX(500);
-        goal2Image.setY(650-goal2Image.getImage().getHeight(null)/2);
-
         //Registering
         sprint_bar = new FillAbleBar(sbImage.getSubimage(0,0,192,32),
                 sbImage.getSubimage(0,34,150,24), 908-20,30, 17,0, FillAbleBar.DecreasingSide.RIGHT_TO_LEFT, true);
-        RenderingEngine.register(goalImage);
-        RenderingEngine.register(goal2Image);
     }
 
     public static MainGame getGame() {return game;}

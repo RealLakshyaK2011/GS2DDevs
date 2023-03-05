@@ -34,7 +34,6 @@ public final class BallEntity extends PhysicsAffectedObject {
             lastSpeedUp = System.currentTimeMillis();
             totalSpeedUps--;
             this.setPixelPerSecondSpeed(this.getPixelPerSecondSpeed() - 150);
-            System.out.println("Total Speed Ups: " + totalSpeedUps);
         }
         if(x >= 1000 - 16){
             PhysicsEngine.reflectOnSurface(this, 90 + random.nextInt( 7));
@@ -46,9 +45,7 @@ public final class BallEntity extends PhysicsAffectedObject {
             PhysicsEngine.reflectOnSurface(this, random.nextInt(-7, 7));
         }
         if(y >= 700){
-            //PhysicsEngine.reflectOnSurface(this, random.nextInt(-7, 7));
             System.out.println("GAME OVER!");
-            //EventBus.post(new GameOverEvent(MainGame.getGame().localPlayer));
             PhysicsEngine.unregister(this);
         }
 
@@ -56,7 +53,6 @@ public final class BallEntity extends PhysicsAffectedObject {
 
     @Override
     public void onCollusionEvent(PhysicsAffectedObject objectCollidedWith) {
-        System.out.println("COLLUSION WITH PLAYER");
         if(objectCollidedWith instanceof PlayerEntity e){
             if(e.isDashing() && System.currentTimeMillis() - lastSpeedUp >= 1000){
 

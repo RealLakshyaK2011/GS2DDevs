@@ -18,7 +18,7 @@ public abstract class PlayerEntity extends PhysicsAffectedObject {
     public PlayerEntity(){
         super();
         MODEL = new PlayerModel();
-        this.y = MainGame.getWindow().getHeight()-75;
+        this.y = MainGame.getWindow().getHeight()-200;
         this.x = MainGame.getWindow().getWidth() / 2F;
         this.dashPosY = (int) (y + 15);
         this.staticPosY = (int) y;
