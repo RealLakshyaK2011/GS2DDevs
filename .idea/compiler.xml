@@ -9,5 +9,8 @@
         <module name="GS2DDevs" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="GS2DDevs" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

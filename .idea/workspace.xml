@@ -1,17 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbdd4d8a-1920-4fb4-9069-41027d0dd38f" name="Changes" comment="" />
+    <list default="true" id="dbdd4d8a-1920-4fb4-9069-41027d0dd38f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/goal_blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/goal_blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/goal_red.png" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/goal_red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/Initializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/graphics/AbstractGameWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/graphics/GamePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/graphics/image/RenderAbleImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/graphics/image/utils/ImageUtils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/graphics/image/utils/ImageUtils$FlipDirection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/graphics/image/utils/ImageUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/graphics/model/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/graphics/model/ModelPart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/inputs/keyboard/KeyBinding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/inputs/keyboard/KeyBoardInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/math/GSMath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/physics/PhysicalEventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/physics/PhysicsAffectedObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/physics/engine/PhysicsEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/renderer/RenderAble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/renderer/RenderAbleComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/renderer/RenderAbleObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/renderer/RenderingEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/chauhanDevs/gsquad/GS2DDevs/thread/GameLoopThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methodTest/TestConduct1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/methodTest/TestConduct2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/EventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/MainGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/client/entity/ClientPlayerEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/client/entity/Enviroment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/client/entity/OpponentPlayerEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/common/entity/BallEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/common/entity/PlayerEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/common/events/GameOverEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/event/Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/event/EventBus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/graphic/FillAbleBar$DecreasingSide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/graphic/FillAbleBar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/graphic/GameWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/graphic/model/BallModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/graphic/model/PlayerModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/input/keyboard/BACKWARD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/input/keyboard/DASH.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/input/keyboard/FORWARD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/input/keyboard/SPRINT.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="2MadIjBHhuTspHbradzRo3SKDwi" />
@@ -19,12 +80,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="RunTest" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="test.MainGame" />
+      <module name="GS2DDevs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,5 +103,21 @@
       <updated>1678009549081</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GS2DDevs$MainGame.ic" NAME="MainGame Coverage Results" MODIFIED="1677741765925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
   </component>
 </project>
